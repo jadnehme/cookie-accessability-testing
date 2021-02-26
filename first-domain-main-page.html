@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.doubleBorder {border-style: double;}
+</style>
+ <script type="text/javascript" src="firstpartywritecookie.js"></script>
+</head>
+<body>
+	<section>
+	<div class="doubleBorder">
+		<h1> first party access to domain 1stpartycontext.com</h1>
+		<button onclick="firstPartyReadCookie()">Click here to read your cookies in first party context</button>
+		<button onclick="firstPartyWriteCookie()">Click here to write a test cookie in first party context</button>
+		<button onclick="firstPartyDeleteCookie()">Click here to delete the cookie set in first party context</button>
+		<button onclick="firstPartyUdpateCookie()">Click here to update the cookie set in first party context</button>
+	</div>
+<!--   Simplifying by removing embedded iframe add it back to access 3rdparty cookie
+	<div class="doubleBorder">
+		<h1> third party context access to domain 3rdpartycontext.com</h1> 
+	<iframe width = "1200" height = "200" src="http://3rdpartycontext.com/third-party-iframe.html" frameborder="1">
+	</iframe>
+	</div>
+-->
+</body>
+</html>	
+
+
+
