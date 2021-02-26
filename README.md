@@ -7,7 +7,8 @@ To run,
 2- add the following lines to your hosts file. Che only hardcoded domain is 3rdpartycontex.com in the file third-domain-main-page.html, so you could choose the domain and port you want, just change the line 3rdpartycontex.com in that file accordingly, or make the call dynamic. 
 
 127.0.0.1       1stpartycontext.com
-127.0.0.1       3rdpartycontext.com
+
+129.0.0.1       3rdpartycontext.com
 
 3- access the URI http://1stpartycontext.com/first-domain-main-page.html. Click on "write to test cookie" and "read your cookies". That will validate that you have cookies set for that domain
 
