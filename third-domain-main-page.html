@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.doubleBorder {border-style: double;}
+</style>
+ <script type="text/javascript" src="firstpartywritecookie.js"></script>
+</head>
+<body>
+	<div class="doubleBorder">
+		<h1> first party access to domain 3rdpartycontext.com</h1>
+		<button onclick="firstPartyReadCookie()">Click here to read your Cookies in first party context</button>
+		<button onclick="firstPartyWriteCookie()">Click here to write a test Cookie in first party context</button>
+		<button onclick="firstPartyDeleteCookie()">Click here to delete a test Cookie in first party context</button>
+		<button onclick="firstPartyUdpateCookie()">Click here to update a test Cookie in first party context</button>
+	</div>
+	<div class="doubleBorder">
+		<h1> third party context access to domain 1stpartycontext.com</h1> 
+	<iframe width = "1200" height = "200" src="http://1stpartycontext.com/third-party-iframe.html" frameborder="1">
+	</iframe>
+	</div>
+</body>
+</html>	
+
+
+
