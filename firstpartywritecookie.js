@@ -20,7 +20,7 @@ function firstPartyReadCookie() {
 		alertMsg = alertMsg + "\n" + EXTERNAL_SESSION_COOKIE_NAME + "=" + externalSessionCookieValue;
 	}
 
-	var localValue =  .getItem(LOCAL_NAME) ;	
+	var localValue =  localStorage.getItem(LOCAL_NAME) ;	
 	if (localValue != null) {
 		alertMsg = alertMsg + "\n" + LOCAL_NAME + "=" + localValue;
 	}
