@@ -2,7 +2,7 @@
 
 This folder contains some web pages that will test accessability of cookies from 1st party and 3rd party context.
 
-To run, 
+To run: 
 1- deploy the first* files on a webserver. 
 2- add the following lines to your hosts file. Che only hardcoded domain is 3rdpartycontex.com in the file third-domain-main-page.html, so you could choose the domain and port you want, just change the line 3rdpartycontex.com in that file accordingly, or make the call dynamic. 
 
