@@ -1,6 +1,6 @@
 # cookie-accessability-testing
 
-This folder contains some web pages that will test accessability of cookies from 1st party and 3rd party content.
+This folder contains some web pages that will test accessability of cookies from 1st party and 3rd party context.
 
 To run, 
 1- deploy the first* files on a webserver. 
